@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class PlayerControler : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    // Impliment player movement
+    public float speed;
+
+    private void MovePlayer()
     {
-        
+        // move player
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        // Impliment playermovement
-    }
 }
